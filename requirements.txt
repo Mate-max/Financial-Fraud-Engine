@@ -1,0 +1,8 @@
+polars
+pandas
+scikit-learn
+xgboost
+imbalanced-learn
+fastapi
+uvicorn
+pydantic
