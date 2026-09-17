@@ -20,11 +20,13 @@ except Exception as e:
 FEATURE_NAMES = [f'V{i}' for i in range(1, 29)] + ['scaled_amount', 'scaled_time']
 
 class TransactionData(BaseModel):
-    features: List[float] = Field(
-        ..., 
-        description="30 ნიშანი: [V1, V2, ..., V28, scaled_amount, scaled_time]",
-        example=[0.0] * 28 + [0.1, -0.5]
-    )
+
+    # features: List[float] = Field(
+    #     ..., 
+    #     description="30 ნიშანი: [V1, V2, ..., V28, scaled_amount, scaled_time]",
+    #     example=[0.0] * 28 + [0.1, -0.5]
+    # )
+    features: List[float] = Field(..., json_schema_extra={"example": [0.0] * 30})
 
 @app.get("/")
 def home():
