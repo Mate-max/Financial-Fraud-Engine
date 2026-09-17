@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ## Run API Locally
 uvicorn app.main:app --reload
 
-Visit http://127.0.0.1:8000/docs to test endpoints via Swagger UI.
+Visit [http://127.0.0.1:8000/docs](https://financial-fraud-engine.onrender.com/docs) to test endpoints via Swagger UI.
 
 ## Run Tests
 python -m pytest
