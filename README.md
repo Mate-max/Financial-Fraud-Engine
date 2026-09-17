@@ -1,6 +1,3 @@
-#  ლაივ საიტის ლინკი
-https://financial-fraud-engine.onrender.com/docs
-
 # 🛡️ Financial Fraud Detection Engine
 
 An end-to-end, production-ready Machine Learning API for detecting financial transaction fraud in real-time. Built with **XGBoost**, **FastAPI**, containerized via **Docker**, and deployed with fully automated **CI/CD via GitHub Actions**.
