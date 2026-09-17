@@ -52,3 +52,9 @@ python -m pytest
 To build and run the Docker container locally:
 docker build -t fraud-detection-api .
 docker run -p 8000:8000 fraud-detection-api
+
+## 📸 API Preview
+
+| Interactive Swagger UI | Live Prediction Response (200 OK) |
+| :---: | :---: |
+| ![Swagger UI](docs/images/api-overview.png) | ![Swagger UI](docs/images/api-overview2.png) | ![API Response](docs/images/api-response.png) |
